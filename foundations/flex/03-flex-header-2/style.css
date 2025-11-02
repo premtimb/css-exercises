@@ -35,6 +35,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  
 }
 
 a {
@@ -45,4 +46,39 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+
+/* .header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.middle, .right{
+  display: flex;
+  gap:15px;
+}
+.middle{
+  flex:1;
+} */
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+ul{
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.left,.right{
+  display: flex;
+  justify-content: center;
+  gap:15px;
 }
