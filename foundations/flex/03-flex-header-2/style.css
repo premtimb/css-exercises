@@ -79,6 +79,6 @@ ul{
 
 .left,.right{
   display: flex;
-  justify-content: center;
-  gap:15px;
+  align-items: center;
+  gap: 16px;
 }
